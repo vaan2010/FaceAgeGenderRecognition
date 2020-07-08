@@ -6,4 +6,6 @@
 
 **Code Author: Vaan Lin**
 
-**Last update: 2020/7/8**
+**Last update: 2020/07/08**
+### Face image inference demo
+
