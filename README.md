@@ -5,3 +5,4 @@
 + CelebA, AFAD, MegaAge-Asian and UTKFace dataset is used for model training.
 
 **Code Author: Vaan Lin**
+**Last update: 2020/7/8**
