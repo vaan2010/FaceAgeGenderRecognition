@@ -9,4 +9,4 @@
 **Last update: 2020/07/08**
 ### Face image inference demo
 
-​<img src="https://github.com/vaan2010/FaceAgeGenderRecognition/blob/master/Demo/Image/Results/1.jpg" height="240"/>
+​<img src="https://github.com/vaan2010/FaceAgeGenderRecognition/blob/master/Demo/Image/Results/1.jpg" height="360"/>
