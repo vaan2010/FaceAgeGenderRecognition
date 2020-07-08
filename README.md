@@ -3,4 +3,4 @@
 + Using OpenVINO to accelerate the speed of real-time recognition on intel D415.
 + The backbone of model structure is MobileFaceNet.
 + CelebA, AFAD, MegaAge-Asian and UTKFace dataset is used for model training.
-** Code Author: Vaan Lin
+**Code Author: Vaan Lin**
