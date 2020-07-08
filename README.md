@@ -8,4 +8,3 @@
 
 **Last update: 2020/07/08**
 ### Face image inference demo
-
