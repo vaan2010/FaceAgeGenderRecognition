@@ -138,3 +138,15 @@ All of training details you can check the document named FaceAgeGenderRecognitio
 
 ## Results
 #### Compared with OpenVINO and InsightFace
++ Gender
+
+​<img src="Results/gender_result_1.PNG" height="300"/>
+​<img src="Results/gender_result_2.PNG" height="300"/>
+
++ Age
+
+Results of (a) OpenVINO, (b) InsightFace and (c) Our Model age estimation. X-axis means range of age from 18 to 65, and y-axis means the mean absolute error (MAE) of model estimation in every age.
+
+​<img src="Results/age_result_OpenVINO.PNG" height="240"/>
+​<img src="Results/age_result_InsightFace.PNG" height="240"/>
+​<img src="Results/age_result_OurModel.PNGG" height="240"/>
