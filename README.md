@@ -28,6 +28,7 @@ Please install Anaconda(Python 3.7 64-Bit) first.
 + Keras           2.3.1
 + cvlib           0.2.2
 + numpy           1.17.4
+
 You can install the package of above at once by using command: 
 ```
 pip install -r requirements.txt
