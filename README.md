@@ -53,7 +53,7 @@ If you wanna use your datasets to train on my model, please notice the following
 ```
 ./FaceAgeGenderRecognition/Datasets
 ```
-and you can generate TFRecors by executing gen_TFRecords.py
+   and you can generate TFRecors by executing gen_TFRecords.py
 
 3. The results of TFRecords will save at 
 ```
