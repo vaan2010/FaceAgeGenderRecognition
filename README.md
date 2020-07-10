@@ -43,6 +43,11 @@ pip install -r requirements.txt
 + cvlib
 (https://github.com/arunponnusamy/cvlib)
 
+## Datasets
+If you wanna use your datasets to train on my model, please notice the following:
+1. This model is for age and gender recognition, so make sure your dataset can be labeled like:
+
+
 ## Simple Steps of Execution
 Insure you have already installed OpenVINO.
 + If you wanna use the model to inference your images
@@ -88,7 +93,7 @@ python ./Demo/RealTime/Webcam.py --x ./Training/Results/Openvino_IR/MFN.xml --b 
 1. Activate your Anaconda environment
 2. Executed by python(Asian):
 ```
-python ./TFRecords_Create/gen_TFRecords.py --i P:/3.軟體開發/1.演算法/Project/FaceAgeGenderRecognition/Datasets/Asian_FaceData/ --c ./TFRecords_Create/Asian_FaceData.csv --t ./TFRecords_Create/TFRecords --n Asian
+python ./TFRecords_Create/gen_TFRecords.py --i ./FaceAgeGenderRecognition/Datasets/Asian_FaceData/ --c ./TFRecords_Create/Asian_FaceData.csv --t ./TFRecords_Create/TFRecords --n Asian
 
 --i means the path of dataset
 --c means the path of csv file
@@ -101,7 +106,7 @@ python ./TFRecords_Create/gen_TFRecords.py --i P:/3.軟體開發/1.演算法/Pro
 2. cd ./FaceAgeGenderRecognition/Training
 3. Executed by python:
 ```
-python MFN_Train.py --tn P:/3.軟體開發/1.演算法/Project/FaceAgeGenderRecognition/Outputs/TFRecords/train/ --ts P:/3.軟體開發/1.演算法/Project/FaceAgeGenderRecognition/Outputs/TFRecords/test/ --m .././Model/Backbone/MFN_62_075_gender_pre-trained.h5 --p Y
+python MFN_Train.py --tn ./FaceAgeGenderRecognition/Outputs/TFRecords/test/ --m .././Model/Backbone/MFN_62_075_gender_pre-trained.h5 --p Y
 
 --tn means path of training tfrecords
 --ts means path of testing tfrecords
