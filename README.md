@@ -73,3 +73,38 @@ python ./Demo/Image/Image_Test.py --x ./Training/Results/Openvino_IR/MFN.xml --b
 --i means path of input images
 --o means path of output images
 ```
++ If you wanna use the model to achieve the real-time recognition on intel D415
+1. Activate your Anaconda environment
+2. Executed by python: 
+```
+python ./Demo/RealTime/Webcam.py --x ./Training/Results/Openvino_IR/MFN.xml --b ./Training/Results/Openvino_IR/MFN.bin --r 1280
+
+--x means path of OpenVINO .xml file
+--b means path of OpenVINO .bin file
+--r means the resolution of D415(include 1920(1920x1080), 1280(1280x720) and 960(960x540))
+```
+
++ If you want to create the tfrecords by yourself
+1. Activate your Anaconda environment
+2. Executed by python(Asian):
+```
+python ./TFRecords_Create/gen_TFRecords.py --i P:/3.軟體開發/1.演算法/Project/FaceAgeGenderRecognition/Datasets/Asian_FaceData/ --c ./TFRecords_Create/Asian_FaceData.csv --t ./TFRecords_Create/TFRecords --n Asian
+
+--i means the path of dataset
+--c means the path of csv file
+--t means the path of output tfrecords
+--n means the name of output tfrecords
+```
+
++ If you want to re-train the model of using your dataset of TFRecords
+1. Activate your Anaconda environment
+2. cd ./FaceAgeGenderRecognition/Training
+3. Executed by python:
+```
+python MFN_Train.py --tn P:/3.軟體開發/1.演算法/Project/FaceAgeGenderRecognition/Outputs/TFRecords/train/ --ts P:/3.軟體開發/1.演算法/Project/FaceAgeGenderRecognition/Outputs/TFRecords/test/ --m .././Model/Backbone/MFN_62_075_gender_pre-trained.h5 --p Y
+
+--tn means path of training tfrecords
+--ts means path of testing tfrecords
+--m  means the path of model
+--p  means If use pre-trained model or not
+```
