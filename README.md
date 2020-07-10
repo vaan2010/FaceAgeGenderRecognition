@@ -11,7 +11,7 @@
 
 ​<img src="Demo/Image/Results/1.jpg" height="300"/>
 ​<img src="Demo/Image/Results/3.jpg" height="300"/>
-​<img src="Demo/Image/Results/2.jpg" height="270"/>
+​<img src="Demo/Image/Results/2.jpg" height="265"/>
 
 ### Real-time webcam(intel D415) demo
 ​<img src="Demo/RealTime/realtime_test.gif" height="300"/>
