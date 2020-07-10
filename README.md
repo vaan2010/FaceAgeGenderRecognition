@@ -39,4 +39,5 @@ pip install -r requirements.txt
 ## Dependencies
 + Anaconda
 + MobileFaceNet
-
++ cvlib
+(https://github.com/arunponnusamy/cvlib)
