@@ -42,3 +42,6 @@ pip install -r requirements.txt
 (https://arxiv.org/ftp/arxiv/papers/1804/1804.07573.pdf)
 + cvlib
 (https://github.com/arunponnusamy/cvlib)
+
+## Simply Use
+
