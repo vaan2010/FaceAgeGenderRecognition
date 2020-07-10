@@ -44,4 +44,18 @@ pip install -r requirements.txt
 (https://github.com/arunponnusamy/cvlib)
 
 ## Simply Use
+Insure you have already installed OpenVINO.
++ If you wanna use the model to inference your images
+
+1. Put your images in .\FaceAgeGenderRecognition\Demo\Image\Demo_Image
+2. Double click run_Image_Demo.bat
+3. The results will be saved in .\FaceAgeGenderRecognition\Demo\Image\Results
+
++ If you wanna use the model to achieve the real-time recognition on intel D415
+
+1. Double click run_Webcam_Demo.bat
+
++ If you want to re-train the model of using your dataset of TFRecords
+
+1. Double click run_MFN_Train.bat
 
