@@ -140,8 +140,8 @@ All of training details you can check the document named FaceAgeGenderRecognitio
 #### Compared with OpenVINO and InsightFace
 + Gender
 
-​<img src="Results/gender_result_1.PNG" height="300"/>
-​<img src="Results/gender_result_2.PNG" height="300"/>
+​<img src="Results/gender_result_1.PNG" height="240"/>
+​<img src="Results/gender_result_2.PNG" height="240"/>
 
 + Age
 
@@ -149,4 +149,4 @@ Results of (a) OpenVINO, (b) InsightFace and (c) Our Model age estimation. X-axi
 
 ​<img src="Results/age_result_OpenVINO.PNG" height="240"/>
 ​<img src="Results/age_result_InsightFace.PNG" height="240"/>
-​<img src="Results/age_result_OurModel.PNGG" height="240"/>
+​<img src="Results/age_result_OurModel.PNG" height="240"/>
