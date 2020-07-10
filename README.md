@@ -14,4 +14,4 @@
 ​<img src="https://github.com/vaan2010/FaceAgeGenderRecognition/blob/master/Demo/Image/Results/2.jpg" height="320"/>
 
 ### Real-time webcam(intel D415) demo
-​<img src="blob/master/Demo/RealTime/realtime_test.PNG" height="360"/>
+​<img src="Demo/RealTime/realtime_test.PNG" height="360"/>
