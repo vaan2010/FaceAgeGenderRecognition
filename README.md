@@ -137,3 +137,4 @@ python MFN_Train.py --tn ./FaceAgeGenderRecognition/Outputs/TFRecords/test/ --m 
 All of training details you can check the document named FaceAgeGenderRecognition.pdf.
 
 ## Results
+#### Compared with OpenVINO and InsightFace
