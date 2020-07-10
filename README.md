@@ -47,7 +47,7 @@ pip install -r requirements.txt
 If you wanna use your datasets to train on my model, please notice the following:
 1. This model is for age and gender recognition, so make sure your dataset can be labeled like:
 
-​<img src="https://imgur.com/XGHgGR4" height="300"/>
+​<img src="Datasets/Label.PNG" height="300"/>
 
 ## Simple Steps of Execution
 Insure you have already installed OpenVINO.
