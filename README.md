@@ -15,7 +15,7 @@
 
 ### Real-time webcam(intel D415) demo
 ​<img src="Demo/RealTime/realtime_test.gif" height="300"/>
-​<img src="Demo/RealTime/realtime_test.PNG" height="302"/>
+​<img src="Demo/RealTime/realtime_test.PNG" height="305"/>
 
 
 ## Requirements
