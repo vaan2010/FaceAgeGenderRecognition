@@ -20,8 +20,10 @@
 
 ## Requirements
 Please install Anaconda(Python 3.7 64-Bit) first.
+### NVIDIA
 + CUDA            10.1
 + cudnn           7.6.4
+### Python
 + Tensorflow-GPU  2.2.0
 + OpenVINO        2020.3
 + Keras           2.3.1
