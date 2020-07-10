@@ -37,4 +37,6 @@ pip install -r requirements.txt
 + OpenVINO        2020.3
 
 ## Dependencies
-+ 
++ Anaconda
++ MobileFaceNet
+
