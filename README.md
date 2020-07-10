@@ -9,9 +9,9 @@
 **Last update: 2020/07/08**
 ### Face image inference demo
 
-​<img src="https://github.com/vaan2010/FaceAgeGenderRecognition/blob/master/Demo/Image/Results/1.jpg" height="360"/>
-​<img src="https://github.com/vaan2010/FaceAgeGenderRecognition/blob/master/Demo/Image/Results/3.jpg" height="360"/>
-​<img src="https://github.com/vaan2010/FaceAgeGenderRecognition/blob/master/Demo/Image/Results/2.jpg" height="320"/>
+​<img src="Demo/Image/Results/1.jpg" height="360"/>
+​<img src="Demo/Image/Results/3.jpg" height="360"/>
+​<img src="Demo/Image/Results/2.jpg" height="320"/>
 
 ### Real-time webcam(intel D415) demo
 ​<img src="Demo/RealTime/realtime_test.PNG" height="360"/>
