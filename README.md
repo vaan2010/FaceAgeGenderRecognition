@@ -9,9 +9,9 @@
 **Last update: 2020/07/08**
 ### Face image inference demo
 
-​<img src="Demo/Image/Results/1.jpg" height="360"/>
-​<img src="Demo/Image/Results/3.jpg" height="360"/>
-​<img src="Demo/Image/Results/2.jpg" height="320"/>
+​<img src="Demo/Image/Results/1.jpg" height="300"/>
+​<img src="Demo/Image/Results/3.jpg" height="300"/>
+​<img src="Demo/Image/Results/2.jpg" height="280"/>
 
 ### Real-time webcam(intel D415) demo
 ​<img src="Demo/RealTime/realtime_test.PNG" height="300"/>
