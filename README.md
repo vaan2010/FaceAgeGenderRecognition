@@ -140,7 +140,7 @@ All of training details you can check the document named FaceAgeGenderRecognitio
 #### Compared with OpenVINO and InsightFace
 + Gender
 
-​<img src="Results/gender_result_1.PNG" height="207"/>
+​<img src="Results/gender_result_1.PNG" height="203"/>
 ​<img src="Results/gender_result_2.PNG" height="205"/>
 
 + Age
