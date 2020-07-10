@@ -1,4 +1,4 @@
-[2020/6/29] Face Recognition of Age and Gender
+[2020/07/08] Face Recognition of Age and Gender
 
 ------------------------------------------------------
 1. This model can be used on Face Recognition of Age and Gender with European, American and Asian. 
