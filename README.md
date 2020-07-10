@@ -27,3 +27,6 @@
 + Keras           2.3.1
 + cvlib           0.2.2
 + numpy           1.17.4
+
+## Dependencies
++ 
