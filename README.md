@@ -15,3 +15,14 @@
 
 ### Real-time webcam(intel D415) demo
 ​<img src="Demo/RealTime/realtime_test.PNG" height="300"/>
+
+
+# Requirements
++ CUDA            10.1
++ cudnn           7.6.4
++ Anaconda        Python 3.7 64-Bit 
++ Tensorflow-GPU  2.2.0
++ OpenVINO        2020.3
++ Keras           2.3.1
++ cvlib           0.2.2
++ numpy           1.17.4
