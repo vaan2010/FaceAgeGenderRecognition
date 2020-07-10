@@ -134,6 +134,6 @@ python MFN_Train.py --tn ./FaceAgeGenderRecognition/Outputs/TFRecords/test/ --m 
 ```
 
 ## Training Details
-All of training details you can check FaceAgeGenderRecognition.pdf
+All of training details you can check the document named FaceAgeGenderRecognition.pdf.
 
 ## Results
