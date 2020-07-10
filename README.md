@@ -51,11 +51,13 @@ If you wanna use your datasets to train on my model, please notice the following
 
 2. When you have already prepared your label.csv, put your images at 
 ```
-.\FaceAgeGenderRecognition\Datasets and you can generate TFRecors by executing gen_TFRecords.py
+./FaceAgeGenderRecognition/Datasets
 ```
+and you can generate TFRecors by executing gen_TFRecords.py
+
 3. The results of TFRecords will save at 
 ```
-.\FaceAgeGenderRecognition\TFRecords_Create\TFRecords\train(or test)
+./FaceAgeGenderRecognition/TFRecords_Create/TFRecords/train(or test)
 ```
 
 ## Simple Steps of Execution
@@ -64,12 +66,12 @@ Insure you have already installed OpenVINO.
 
 1. Put your images in 
 ```
-.\FaceAgeGenderRecognition\Demo\Image\Demo_Image
+./FaceAgeGenderRecognition/Demo/Image/Demo_Image
 ```
 2. Double click run_Image_Demo.bat
 3. The results will be saved in 
 ```
-.\FaceAgeGenderRecognition\Demo\Image\Results
+./FaceAgeGenderRecognition/Demo/Image/Results
 ```
 
 + If you wanna use the model to achieve the real-time recognition on intel D415
@@ -86,7 +88,7 @@ Insure you have already installed OpenVINO.
 1. Activate your Anaconda environment
 2. Put your images in 
 ```
-.\FaceAgeGenderRecognition\Demo\Image\Demo_Image
+./FaceAgeGenderRecognition/Demo/Image/Demo_Image
 ```
 3. Executed by python: 
 ```
