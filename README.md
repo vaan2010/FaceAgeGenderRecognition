@@ -43,7 +43,7 @@ pip install -r requirements.txt
 + cvlib
 (https://github.com/arunponnusamy/cvlib)
 
-## Simply Use
+## Simple Steps of Execution
 Insure you have already installed OpenVINO.
 + If you wanna use the model to inference your images
 
@@ -59,3 +59,19 @@ Insure you have already installed OpenVINO.
 
 1. Double click run_MFN_Train.bat
 
+## Command of Code Execution
+Insure you have already installed OpenVINO.
++ If you wanna use the model to inference your images
+1. Activate your Anaconda environment
+2. Put your images in .\FaceAgeGenderRecognition\Demo\Image\Demo_Image
+3.
+```
+python ./Demo/Image/Image_Test.py --x ./Training/Results/Openvino_IR/MFN.xml --b ./Training/Results/Openvino_IR/MFN.bin --i ./Demo/Image/Demo_Image --o ./Demo/Image/Results/
+```
+4.
+```
+--x means path of OpenVINO .xml file
+--b means path of OpenVINO .bin file
+--i means path of input images
+--o means path of output images
+```   
