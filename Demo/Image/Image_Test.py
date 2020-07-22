@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('--x', help="Input xml file", dest="xml", default='../../Training/Results/Openvino_IR/MFN.xml')
 parser.add_argument('--b', help="Input bin file", dest="bin", default='../../Training/Results/Openvino_IR/MFN.bin')
-parser.add_argument('--i', help="Input Image Path", dest="Image", default='./Demo_Images')
+parser.add_argument('--i', help="Input Image Path", dest="Image", default='./Demo_Image')
 parser.add_argument('--o', help="Output Image Path", dest="Output_dir", default='./Results/')
 
 parser.add_argument('--h', help="Path of .h5 file", dest="hh", default='../../Training/Results/Keras_h5/MFN.h5')
