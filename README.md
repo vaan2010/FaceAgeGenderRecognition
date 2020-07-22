@@ -82,7 +82,7 @@ Insure you have already installed OpenVINO.
 1. Double click run_MFN_Train.bat
 
 ## Pipline
-This part will tell you the whole process of this project.
++ This part will tell you the whole process of this project.
 
 1. Dataset --> ./TFRecords_Create/gen_TFRecords.py --> [Asian and UTK].tfrecords
 2. [Asian and UTK].tfrecords, MFN_62_075_gender_pre-trained.h5 --> ./Training/MFN_Train.py
