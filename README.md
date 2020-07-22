@@ -43,6 +43,14 @@ pip install -r requirements.txt
 + cvlib
 (https://github.com/arunponnusamy/cvlib)
 
+## Pipline
++ This part describes the roughly process of TFrecords generation, training and model convertion.
+
+1. Dataset --> ./TFRecords_Create/gen_TFRecords.py --> [Asian and UTK].tfrecords
+2. [Asian and UTK].tfrecords, MFN_62_075_gender_pre-trained.h5 --> ./Training/MFN_Train.py
+3. ./Training/Results/Keras_h5/MFN.h5 --> ./Tools_Convert/Keras2pb.py --> MFN.pb
+4. MFN.pb --> Convert pb to IR --> MFN.bin, MFN.mapping and MFN.xml
+
 ## Datasets
 If you wanna use your datasets to train on my model, please notice the following:
 1. This model is for age and gender recognition, so make sure your dataset can be labeled like:
@@ -156,11 +164,3 @@ Results of (a) OpenVINO, (b) InsightFace and (c) Our Model age estimation. X-axi
 ​<img src="Results/age_result_OpenVINO.PNG" height="300"/>
 ​<img src="Results/age_result_InsightFace.PNG" height="300"/>
 ​<img src="Results/age_result_OurModel.PNG" height="300"/>
-
-## Pipline
-+ This part describes the roughly process of TFrecords generation, training and model convertion.
-
-1. Dataset --> ./TFRecords_Create/gen_TFRecords.py --> [Asian and UTK].tfrecords
-2. [Asian and UTK].tfrecords, MFN_62_075_gender_pre-trained.h5 --> ./Training/MFN_Train.py
-3. ./Training/Results/Keras_h5/MFN.h5 --> ./Tools_Convert/Keras2pb.py --> MFN.pb
-4. MFN.pb --> Convert pb to IR --> MFN.bin, MFN.mapping and MFN.xml
