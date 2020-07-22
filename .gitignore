@@ -1,6 +1,6 @@
 # Something not important
-./Demo/Image/Results/*
-./Model/Backbone/__pycache__
-./Training/.ipynb_checkpoints
-./Training/__pycache__
-./Training/Results/Training_Checkpoints/*
+Model/Backbone/__pycache__
+Training/.ipynb_checkpoints
+Training/__pycache__
+Training/Results/Training_Checkpoints/*
+*.tfrecords

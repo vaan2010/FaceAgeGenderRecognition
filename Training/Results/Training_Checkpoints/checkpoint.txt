@@ -1,1 +1,0 @@
-This folder will save the results of training weights of model.

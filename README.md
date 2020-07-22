@@ -6,7 +6,7 @@
 
 **Code Author: Vaan Lin**
 
-**Last update: 2020/07/08**
+**Last update: 2020/07/22**
 ### Face image inference demo
 
 ​<img src="Demo/Image/Results/1.jpg" height="300"/>
@@ -61,7 +61,6 @@ If you wanna use your datasets to train on my model, please notice the following
 ```
 
 ## Simple Steps of Execution
-Insure you have already installed OpenVINO.
 + If you wanna use the model to inference your images
 
 1. Put your images in 
@@ -73,7 +72,7 @@ Insure you have already installed OpenVINO.
 ```
 ./FaceAgeGenderRecognition/Demo/Image/Results
 ```
-
+Insure you have already installed OpenVINO.
 + If you wanna use the model to achieve the real-time recognition on intel D415
 
 1. Double click run_Webcam_Demo.bat
@@ -81,6 +80,12 @@ Insure you have already installed OpenVINO.
 + If you want to re-train the model of using your dataset of TFRecords
 
 1. Double click run_MFN_Train.bat
+
+## Pipline
+1. Dataset --> ./TFRecords_Create/gen_TFRecords.py --> [Asian and UTK].tfrecords
+2. [Asian and UTK].tfrecords, MFN_62_075_gender_pre-trained.h5 --> ./Training/MFN_Train.py
+3. ./Training/Results/Keras_h5/MFN.h5 --> ./Tools_Convert/Keras2pb.py --> MFN.pb
+4. MFN.pb --> Convert pb to IR --> MFN.bin, MFN.mapping and MFN.xml
 
 ## Command of Code Execution
 Insure you have already installed OpenVINO.
@@ -92,8 +97,13 @@ Insure you have already installed OpenVINO.
 ```
 3. Executed by python: 
 ```
-python ./Demo/Image/Image_Test.py --x ./Training/Results/Openvino_IR/MFN.xml --b ./Training/Results/Openvino_IR/MFN.bin --i ./Demo/Image/Demo_Image --o ./Demo/Image/Results/
+[OpenVINO]
+python ./Demo/Image/Image_Test.py --m OpenVINO --i ./Demo/Image/Demo_Image --o ./Demo/Image/Results/ --x ./Training/Results/Openvino_IR/MFN.xml --b ./Training/Results/Openvino_IR/MFN.bin
 
+[Keras]
+python ./Demo/Image/Image_Test.py --m Keras --i ./Demo/Image/Demo_Image --o ./Demo/Image/Results/ --h [Path of .h5 file]
+
+--m means what model type you wanna use
 --x means path of OpenVINO .xml file
 --b means path of OpenVINO .bin file
 --i means path of input images

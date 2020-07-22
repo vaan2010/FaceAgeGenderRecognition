@@ -2,3 +2,4 @@ cvlib==0.2.2
 Keras==2.3.1
 numpy==1.17.4
 tensorflow-gpu==2.2.0
+pyrealsense2==2.31.0.1235
