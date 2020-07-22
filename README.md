@@ -43,7 +43,7 @@ pip install -r requirements.txt
 + cvlib
 (https://github.com/arunponnusamy/cvlib)
 
-## Pipline
+## Pipeline
 + This part describes the roughly process of TFrecords generation, training and model convertion.
 
 1. Dataset --> ./TFRecords_Create/gen_TFRecords.py --> [Asian and UTK].tfrecords
