@@ -34,7 +34,7 @@ You can install the package of above at once by using command:
 pip install -r requirements.txt
 ```
 #### OpenVINO     
-+ OpenVINO        2020.3
++ OpenVINO        the lastest version
 
 ## Dependencies
 + Anaconda
