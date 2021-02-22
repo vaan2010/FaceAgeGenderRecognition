@@ -30,6 +30,7 @@ Please install Anaconda(Python 3.7 64-Bit) first.
 + numpy           1.17.4
 + pyrealsense2    2.31.0.1235
 + matplotlib      3.3.3
++ opencv-python   4.5.1.48
 
 You can install the package of above at once by using command: 
 ```
